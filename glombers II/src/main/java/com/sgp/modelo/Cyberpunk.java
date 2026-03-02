@@ -3,14 +3,14 @@ package main.java.com.cyberpunk.modelo;
 public class Cyberpunk {
     
     private String nome
-    private int categoria
-    private int raridade
+    private String categoria
+    private String raridade
 
     public Cyberpunk() {
     }
 
 
-    public Cyberpunk (String nome, int categoria, int raridade){
+    public Cyberpunk (String nome, String categoria, String raridade){
         this.nome = nome;
         this.categoria = categoria;
         this.raridade = raridade;
@@ -35,12 +35,12 @@ public class Cyberpunk {
     return categoria;
     }
 
-    public void setCategoria(int categoria) {
+    public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
 
 
-    public Int getRaridade(){
+    public String getRaridade(){
     return raridade;
     }
 
